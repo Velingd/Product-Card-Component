@@ -1,0 +1,36 @@
+
+@media (width < 46.7em) {
+    .container {
+        padding:4rem 3rem;
+    }
+}
+
+
+@media (width < 42em) {
+    .container {
+        padding:1.8rem 2rem;
+    }
+    .card {
+        flex-direction: column;
+        &__img {
+            height: 40vh;
+    
+            &-box{
+                height: 40vh;
+                flex: 1 0 40%;  
+                object-position: center;  
+            }
+        }
+    }
+
+    .content {
+        flex: 1 0 60%;
+
+        &__heading{
+            font-size: 3rem;
+            
+        }
+    }
+
+}
+

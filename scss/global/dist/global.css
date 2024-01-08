@@ -1,0 +1,25 @@
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%)
+  --Cream: hsl(30, 38%, 92%)
+   // ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+
+h1, h2, h3, h4, p {
+  line-height: 1.1;
+  margin: 0;
+}

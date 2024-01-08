@@ -1,0 +1,19 @@
+.card {
+    width: 60rem;
+    display: flex;
+    background-color: var(--White);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    
+
+    &__img {
+        max-width: 100%;
+        object-fit: cover;
+        height: 100%;
+
+        &-box{
+            flex: 1 0 50%;
+        }
+    }
+}
+         
